@@ -3,7 +3,7 @@ def div():
     return 3/1
 
 def check():
-    return h
+    return "h"
 
 if __name__ == "__main__": 
     div()
