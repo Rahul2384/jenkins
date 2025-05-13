@@ -1,9 +1,9 @@
 def div():
-    print("thi is division meth")
-    return 3/0
+    print("this is division method (but not dividing by zero)")
+    return 3/1  # Changed from 3/0 to avoid ZeroDivisionError
 
 def check():
-    return "h
+    return "hello"
 
 if __name__ == "__main__": 
     div()
