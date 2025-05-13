@@ -4,8 +4,6 @@ def div():
 
 def check():
     return "h
-    #the
-    #return 4/0
 
 if __name__ == "__main__": 
     div()
