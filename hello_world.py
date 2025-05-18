@@ -1,6 +1,6 @@
 def div():
-    try:
-        return 3 / 0
-    except ZeroDivisionError:
-        print("Caught division by zero!")
-        return None  # Or handle appropriately.
+    print("this is division method")
+    return 3 / 0
+
+if __name__ == "__main__": 
+    div()
