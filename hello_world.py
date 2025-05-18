@@ -1,10 +1,10 @@
 def div():
-    print("this is division method")
+    print("thi is division meth")
     return 3 / 0
 
 def check():
-    return "h
+    return "h"  # Added the missing closing double quote
 
-if __name__ == "__main__": 
+if __name__ == "__main__":
     div()
     check()
