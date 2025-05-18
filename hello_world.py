@@ -1,10 +1,6 @@
 def div():
-    print("thi is division meth")
-    return 3 / 0
-
-def check():
-    return "h"  # Added the missing closing double quote
-
-if __name__ == "__main__":
-    div()
-    check()
+    try:
+        return 3 / 0
+    except ZeroDivisionError:
+        print("Caught division by zero!")
+        return None  # Or handle appropriately.
